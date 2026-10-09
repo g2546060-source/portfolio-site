@@ -1,4 +1,4 @@
-fetch("works.csv")
+fetch("./works.csv")
     .then(function(response){
         return response.text();
     })
